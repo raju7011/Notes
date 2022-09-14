@@ -57,4 +57,22 @@ CREATE DATABASE IN POSTGRES
         \du 
  10. To see the lisr of database
         
-         \list
+         \list\
+  
+ ## Postgres database setting for the django 
+  
+        DATABASES = {
+                   'default': {
+                       'ENGINE': 'django.db.backends.postgresql_psycopg2',
+                       'NAME': 'databasebame',
+                       'USER': 'userofdatabase',
+                       'PASSWORD': 'password',
+                       'HOST': '127.0.0.1',
+                       'PORT': '5432',
+                   }
+                }
+  
+ ## Package to connect postgres and django
+        
+        pip install psycopg2-binary
+
