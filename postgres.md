@@ -47,3 +47,14 @@ CREATE DATABASE IN POSTGRES
  7. If we have to drop the user
   
         DROP USER <user_name>;
+ 
+ 8. Force delete database in postgres
+  
+        DROP DATABASE <databse_name> WITH (FORCE) DROP DATABASE
+
+ 9. To see the list of user inside postgres database
+  
+        \du 
+ 10. To see the lisr of database
+        
+         \list
