@@ -2,7 +2,7 @@
 
 INSTALLL POSTGRE IN UBUNTU MANCHINE
 
-1. update the 
+1. update the machine
 
         sudo apt update
         
