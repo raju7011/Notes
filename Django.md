@@ -41,6 +41,18 @@
    10. To enter into the shell
 
             python manage.py shell
+            
+            
+   ## FAKE IMGRATIONS AND MIGRATE
+   
+   1. To undo the migration 
+
+          python manage.py migrate <app_name> zero
+          
+   2. To make the fake migrations
+
+          python manage.py migrate <app_name> --fake
+          
           
           
    
