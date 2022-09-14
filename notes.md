@@ -1,7 +1,24 @@
-                                                              ## PROGRAMMING NOTES
+                                                        ## PROGRAMMING NOTES ##
 
+INSTALLL POSTGRE IN UBUNTU MANCHINE
 
-##CREATE DATABASE IN POSTGRES
+1. update the 
+
+        sudo apt update
+        
+2. install postgresh package along with contrib
+
+        sudo apt install postgresql postgresql-contrib
+        
+4. ensure that service is stared
+
+          sudo apt install postgresql postgresql-contrib
+         
+5. check the version of psql to ensure it's working
+
+          psql --version
+
+CREATE DATABASE IN POSTGRES
 
 1. To enter inside the postgres database name <postgres>
   
