@@ -75,3 +75,28 @@
    6. To enter into the docker containder shell
 
           sudo docker exec -it <container_id> bash
+          
+   7. To stop the docker container
+
+          sudo docker-compose down
+          
+   8. To see the list of running docker containers
+
+          sudo docker ps
+          
+   9. To see all the docker containers
+
+          sudo docker ps -a
+   
+   10. To delete docker container
+
+            sudo docker rm <container_id>
+            
+   11. To see the list of docker images
+
+            sudo docker images
+            
+   12. To delete docker images
+
+            sudo docker rmi < image_id>
+    
