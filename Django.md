@@ -54,6 +54,14 @@
           python manage.py migrate <app_name> --fake
           
           
+   ## TO FLUSH DATA BASE CONNECT TO THE PROJECT
+   
+   
+   1. Flush database 
+
+          python manage.py flush
+          
+          
           
    
    
