@@ -35,3 +35,15 @@ CREATE DATABASE IN POSTGRES
 4. Grant all permission to user 
       
         grant all privileges on database kapedia to kapedia;
+ 
+5. If we have to change the password for the user
+      
+       ALTER USER <user_name> WITH PASSWORD '<new_password>';
+  
+6. If we have to drop the database
+  
+       DROP DATABASE <database_name>;
+
+ 7. If we have to drop the user
+  
+        DROP USER <user_name>;
