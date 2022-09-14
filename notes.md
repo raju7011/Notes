@@ -30,7 +30,7 @@ CREATE DATABASE IN POSTGRES
 
 3. Create user with encrypted password
   
-        create user <username> with encrypted password <password>;
+        create user <username> with encrypted password '<password>';
 
 4. Grant all permission to user 
       
