@@ -40,5 +40,14 @@
 
           git reset <your_commit_id>
           
+  10. To pull code from the specific branch
+
+          git pull origin <branch_name>
+   
+   11. To git reset hard (it will ignore all the code which are not committed so be careful before using this)
+
+            git reset --hard
+        
+          
         
       
