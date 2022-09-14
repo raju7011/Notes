@@ -46,21 +46,29 @@
               container_name: <conatiner_name>
               
               environment:
-                - POSTGRES_DB=${DB_NAME}
-                - POSTGRES_USER=${DB_USER}
-                - POSTGRES_PASSWORD=${DB_PASSWORD}
+                - POSTGRES_DB=${NAME}
+                - POSTGRES_USER=${USER}
+                - POSTGRES_PASSWORD=${PASSWORD}
 
             <django_service_name>:
+            
               restart: always
+              
               container_name: <conatiner_name>
-              image: kapedia
+              
+              image: <image_name>
+              
               build: . # location where to build docker images
+              
               volumes:
                 - .:/<volume_name>
+                - 
               ports:
                 - "8000:8000"
+                - 
               depends_on:
                 - < serive_name_on_which_it_depend>
+                - 
               env_file:
                 - <name_of_env file>
 
