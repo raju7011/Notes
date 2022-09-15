@@ -63,7 +63,7 @@
           
    ## TO change the password of the superuser in django
     
-          python manage.py changepassword <username/email  dependupon your models>
+    python manage.py changepassword <username/email  dependupon your models>
           
           
           
