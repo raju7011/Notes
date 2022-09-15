@@ -25,9 +25,10 @@
 
           python manage.py makemigrations <app_name>
           
-   6.1 To merge the migrations files
-        
-        python manage.py makemigrations --merge
+          
+       6.1 To merge the migrations files
+
+            python manage.py makemigrations --merge
           
    7. To migrate migrations file into database
 
