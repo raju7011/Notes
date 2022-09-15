@@ -81,7 +81,7 @@
    
     python manage.py showmigrations
     
-   ## To fully rest (delete and recreate your database)
+   ## To fully rest (delete and recreate your database) (django-extension)
     
     python manage.py reset_db
           
