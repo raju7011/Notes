@@ -46,7 +46,10 @@
    10. To enter into the shell
 
             python manage.py shell
-            
+  
+  11. TO run the local server
+
+            python manage.py runserver
             
    ## FAKE IMGRATIONS AND MIGRATE
    
