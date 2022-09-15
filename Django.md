@@ -81,9 +81,15 @@
    
     python manage.py showmigrations
     
-   ## To fully rest (delete and recreate your database) (django-extension)
-    
+   ## django-extension
+  
+   1. To rest dajngo db (drop and recreate)
+   
     python manage.py reset_db
+    
+   2. TO generate Er diram of the all django models
+
+    python manage.py graph_models -a -o myapp_models.png
           
           
           
