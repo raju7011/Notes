@@ -69,6 +69,15 @@
    ## TO change the password of the superuser in django
     
     python manage.py changepassword <username/email  dependupon your models>
+    
+   ## To enter inside the project database shell
+   
+    python manage.py dbshell
+    
+   ## To check either the migrations is excuted or not
+   
+    python manage.py showmigrations
+    
           
           
           
