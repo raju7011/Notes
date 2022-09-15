@@ -81,6 +81,9 @@
    
     python manage.py showmigrations
     
+   ## To fully rest (delete and recreate your database)
+    
+    python manage.py reset_db
           
           
           
