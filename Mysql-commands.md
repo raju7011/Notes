@@ -52,5 +52,3 @@
 
     mysql -u root -p
     
-  8. to stop sql serv
-  9. sudo /etc/init.d/mysql stop
