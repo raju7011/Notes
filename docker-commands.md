@@ -107,4 +107,19 @@
    12. To delete docker images
 
             sudo docker rmi < image_id>
+            
+   13. prune all images, or manually delete one by ID
+    
+            docker image prune -a
+            docker image rm <image_id>
+            
+   14. Pruning Containers And Volumes
+        Docker never removes containers or volumes (unless you run containers with the --rm flag), as doing so could lose your data. However, you may             have old data backed up that needs to be garbage collected.
+        Much like images, Docker provides a prune command for containers and volumes:
+        
+            docker container prune
+          
+            docker volume prune
+
+          
     
