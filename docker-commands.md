@@ -120,6 +120,10 @@
             docker container prune
           
             docker volume prune
+            
+   15. To check the size of the container
+
+            docker ps --size
 
           
     
