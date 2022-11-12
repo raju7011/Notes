@@ -62,7 +62,7 @@
   
   9. Grant permission to user to the database
 
-    GRANT PRIVILEGE ON database.table TO 'username'@'host';
+    GRANT ALL PRIVILEGES ON *.* TO 'sammy'@'localhost' WITH GRANT OPTION;
     
   10. 
     
