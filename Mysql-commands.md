@@ -64,5 +64,13 @@
 
     GRANT ALL PRIVILEGES ON *.* TO 'sammy'@'localhost' WITH GRANT OPTION;
     
-  10. 
+  10. if problem installing mysql clinet
+
+    sudo apt-get install python3.5-dev
+
+    sudo apt-get install mysql-client 
+
+    sudo apt-get install libmysqlclient-dev 
+
+    sudo apt-get install libssl-dev 
     
