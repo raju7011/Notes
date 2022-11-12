@@ -52,3 +52,17 @@
 
     mysql -u root -p
     
+  8. TO create user to in mysql
+
+    CREATE USER 'sammy'@'localhost' IDENTIFIED BY 'password';
+  
+  OR
+    
+    ALTER USER 'sammy'@'localhost' IDENTIFIED WITH mysql_native_password BY 'password';
+  
+  9. Grant permission to user to the database
+
+    GRANT PRIVILEGE ON database.table TO 'username'@'host';
+    
+  10. 
+    
