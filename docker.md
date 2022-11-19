@@ -1,5 +1,4 @@
                                                                   ### DOCKER ##
-  ## TO COMPOSE DOCKERFILE
   
   1. Create docker file
 
@@ -111,6 +110,9 @@
    13. prune all images, or manually delete one by ID
     
             docker image prune -a
+            
+          or
+       
             docker image rm <image_id>
             
    14. Pruning Containers And Volumes
@@ -118,6 +120,8 @@
         Much like images, Docker provides a prune command for containers and volumes:
         
             docker container prune
+            
+          or
           
             docker volume prune
             
