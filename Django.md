@@ -28,7 +28,7 @@
           
        6.1 To merge the migrations files
 
-            python manage.py makemigrations --merge
+          python manage.py makemigrations --merge
           
    7. To migrate migrations file into database
 
