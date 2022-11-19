@@ -1,6 +1,5 @@
                                                         ## PROGRAMMING NOTES ##
 
-INSTALLL POSTGRE IN UBUNTU MANCHINE
 
 1. update the machine
 
@@ -12,11 +11,14 @@ INSTALLL POSTGRE IN UBUNTU MANCHINE
         
 4. ensure that service is stared
 
-          sudo apt install postgresql postgresql-contrib
+        sudo apt install postgresql postgresql-contrib
          
 5. check the version of psql to ensure it's working
 
-          psql --version
+         psql --version
+         
+         
+         
 
 CREATE DATABASE IN POSTGRES
 
