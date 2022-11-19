@@ -25,3 +25,7 @@
   6. To check the version of current ubutnu 
 
           sudo do-release-upgrade -V
+          
+  7. remove loacked folder and files
+
+          sudo chown -R $USER: $HOME
