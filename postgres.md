@@ -9,9 +9,9 @@
 
         sudo apt install postgresql postgresql-contrib
         
-4. ensure that service is stared
+4. ensure that service is started
 
-        sudo apt install postgresql postgresql-contrib
+        service postgresql status
          
 5. check the version of psql to ensure it's working
 
