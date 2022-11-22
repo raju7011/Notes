@@ -25,7 +25,7 @@
        
 5. check the python version
 
-        python3.9 --version
+        python --version
         
 6. Finally you can choose multipal python version
 
