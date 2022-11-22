@@ -31,3 +31,8 @@
 
        sudo update-alternatives --config python
        
+7. python  and python3 same
+
+        sudo apt-get install python-is-python3
+
+       
