@@ -1,9 +1,12 @@
                                                                 ## DJANGO ##
    ## CREATE PROJECT ON DJANGO
+   0. Install pipenv in your machine
+    
+          pip install pipenv
    
    1. create virtual enviroment in django
    
-          pip install pipenv
+          pipenv --python3.10
     
    2. activate virtual env in machine
       
@@ -15,7 +18,7 @@
     
    4. To create django project (NOTE: use dot in the last for creating project in same directory)
     
-          django-admin startproject <project_name> 
+          django-admin startproject <project_name>
     
    5. To start apps in django project 
       
