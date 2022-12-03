@@ -46,6 +46,11 @@
        
 ## Create database, user and grant permission to the user
 
+1.login as auth user
+      
+      
+        mysql -u root -p
+
 
 1. create database in mysql
 
