@@ -68,7 +68,7 @@
 4. Grant privileges on database to the user
 
     
-        GRANT PRIVILEGE ON database.table TO 'username'@'localhost';
+        GRANT ALL PRIVILEGES ON database_name.* TO 'username'@'localhost';
         
         
         
