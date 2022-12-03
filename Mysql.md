@@ -17,60 +17,71 @@
           }  
       }  
           
-  ## packget to connect mysql and django
+1. first of all update the ubuntu system
+    
+        sudo apt-get update 
+      
+     or
+      
+        sudo apt update
+     
+2. now install the mysql in ubuntu system
+
         
-    pip install mysqlclient
-    
-  
-  ## How to install mysql in ubuntu
+        sudo apt install mysql-server
      
-  1.Update the machine 
      
-    sudo apt update
-  
-  2. install mysql package
+3. now start the service mysql
 
-    sudo apt install mysql-server
+        sudo apt install mysql-server
+        
+4. now config mysql
+
+        sudo mysql
+        
+5. change the password of the root user of mysql database
+
+        ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'password';
+        
+       
+## Create database, user and grant permission to the user
+
+
+1. create database in mysql
+
+       create database raju;
+       
+       
+       
+       
+2. show the list of mysql database list
+
+       show databases;
+       
     
-  3. check wether the server is running or not
+3. Create user with the password in mysql
 
-    sudo systemctl start mysql.service
+        CREATE USER 'raju'@'localhost' IDENTIFIED BY 'password';
+        
+        
+        
+4. Grant privileges on database to the user
+
     
-  4. check version of my sql
+        GRANT PRIVILEGE ON database.table TO 'username'@'localhost';
+        
+        
+        
+        
+ ## Removing the database and user from the mysql
+ 
+ 
+ 1. Remove the database from the mysql
+ 
+ 
+        DROP DATABASES raju;
+        
+ 2. Remove the user from the mysql
 
-    mysql --version
-   
-  5. open mysql 
 
-    sudo mysql
-    
-  6. To alter user and password
-
-    ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'password';
-    
-  7. To authenticate user with pass
-
-    mysql -u root -p
-    
-  8. TO create user to in mysql
-
-    CREATE USER 'sammy'@'localhost' IDENTIFIED BY 'password';
-  
-  OR
-    
-    ALTER USER 'sammy'@'localhost' IDENTIFIED WITH mysql_native_password BY 'password';
-  
-  9. Grant permission to user to the database
-
-    GRANT ALL PRIVILEGES ON *.* TO 'sammy'@'localhost' WITH GRANT OPTION;
-    
-  10. if problem installing mysql clinet
-
-    sudo apt-get install python3.5-dev
-
-    sudo apt-get install mysql-client 
-
-    sudo apt-get install libmysqlclient-dev 
-
-    sudo apt-get install libssl-dev 
-    
+        DROP USER 'username'@'localhost';
