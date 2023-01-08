@@ -29,3 +29,7 @@
   7. remove loacked folder and files
 
           sudo chown -R $USER: $HOME
+  
+  8.convert file type
+  
+        cat housing.data | tr -s '[:blank:]' ',' > test.csv
